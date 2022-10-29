@@ -1,0 +1,260 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .nav-enlace {
+                    display: inline-block;
+                    background: #fd4f00;
+                    color: chartreuse;
+                    padding-left: 500px;
+                    text-decoration: none;
+                }
+                
+                .nav1 {
+                    text-align: right;
+                    text-decoration: none;
+                }
+                
+                .nav-1 {
+                    text-align: center;
+                }
+                
+                .nav-enlace-3 {
+                    padding: auto;
+                    padding-bottom: 30px;
+                    border-radius: 10px;
+                    text-align: right;
+                    background-image: url(/img/memoria.webp);
+                    color: #fff;
+                    padding: 16px 16px;
+                    text-decoration: none;
+                }
+                
+                .img-cinema {
+                    padding: 0px;
+                    text-align: center;
+                    text-decoration: solid;
+                    padding-right: 50px;
+                }
+                
+                body {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    background-image: url(/img/68453663-fondo-blanco-abstracto-de-la-tecnología-d-concepto-.webp);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 9px;
+                    padding-top: 20px;
+                    padding-bottom: 50px;
+                }
+                
+                .contenedor {
+                    background-image: url(/img/fondo-de-pantalla-floral-color-claro-fractal-espiral-belleza-diseño-portada-web-red-tecnológico-d-ilustración-185923730.jpg);
+                    border-radius: 15px;
+                    box-shadow: 19px 20px 8px -9px rgba(156, 7, 7, 0.2);
+                    overflow: hidden;
+                    width: 550px;
+                    max-width: 100%;
+                    padding-bottom: 20px;
+                    padding-top: 4px;
+                    padding: 9px;
+                }
+                
+                .contenedor_registro {
+                    background-image: url(/img/fondo-de-pantalla-floral-color-claro-fractal-espiral-belleza-diseño-portada-web-red-tecnológico-d-ilustración-185923730.jpg);
+                    border-radius: 15px;
+                    box-shadow: 19px 20px 8px -9px rgba(156, 7, 7, 0.2);
+                    overflow: hidden;
+                    width: 1100px;
+                    max-width: 100%;
+                    padding-bottom: 20px;
+                    padding-top: 4px;
+                    padding: 9px;
+                }
+                
+                .imagen01 {
+                    background: #e74c3c;
+                    border-radius: 25px;
+                    box-shadow: 19px 20px 8px -9px rgba(0, 0, 0, 0.2);
+                    overflow: hidden;
+                    width: 550px;
+                    max-width: 100%;
+                    padding-bottom: 20px;
+                    padding-top: 4px;
+                    padding: 9px;
+                    border-radius: 1%;
+                }
+                
+                .h1-3 {
+                    background: #08ffc8;
+                    width: 1100px;
+                    padding-bottom: 1px;
+                    padding-top: 1px;
+                    padding: 5px;
+                    text-align: right;
+                }
+                
+                .bat-1 {
+                    text-align: center;
+                }
+                
+                .cabecera {
+                    background-image: url(/img/digital-enterprise-virtual-summit.jpg);
+                    color: azure;
+                    text-align: center;
+                    border-bottom: 1px solid #f0f0f0;
+                    padding: 20px 40px;
+                }
+                
+                #formulario {
+                    padding: 50px 20px;
+                }
+                
+                .form-control {
+                    margin-bottom: 7px;
+                    padding-bottom: 20px;
+                    position: relative;
+                }
+                
+                .form-control label {
+                    display: inline-block;
+                    margin-bottom: 7px;
+                    font: weight 200px
+                }
+                
+                .form-control input {
+                    border: none;
+                    background-color: #f0f0f0;
+                    display: block;
+                    font-family: inherit;
+                    font-size: 16px;
+                    padding: 12px;
+                    width: 100%;
+                }
+                
+                .form-control select {
+                    border: none;
+                    background-color: #f0f0f0;
+                    display: block;
+                    font-family: inherit;
+                    font-size: 16px;
+                    padding: 12px;
+                    width: 100%;
+                }
+                
+                .form-control textarea {
+                    border: none;
+                    background-color: #f0f0f0;
+                    display: block;
+                    font-family: inherit;
+                    font-size: 16px;
+                    padding: 12px;
+                    width: 100%;
+                }
+                
+                .form-control,
+                input:focus {
+                    outline: none;
+                }
+                
+                .form-control.ok input {
+                    border: 0.1px solid;
+                    border-color: #08ffc8;
+                }
+                
+                .form-control.falla input {
+                    border: 0.1px solid;
+                    border-color: #fe5f55;
+                }
+                
+                .ingreso {
+                    background: #e74c3c;
+                    border: 4px #13334c solid;
+                    border-radius: 75px;
+                    color: #f6f6e9;
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 18px;
+                    overflow: hidden;
+                }
+                
+                .reset {
+                    background: #f0f0f0;
+                    border: 4px #13334c solid;
+                    border-radius: 75px;
+                    color: #13334c;
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 18px;
+                    overflow: hidden;
+                }
+                
+                .form-control p {
+                    visibility: hidden;
+                    position: absolute;
+                    font-size: small;
+                    font-weight: 500;
+                    text-align: right;
+                }
+                
+                .form-control.falla p {
+                    visibility: visible;
+                    color: #e74c3c;
+                }
+                
+                .container {
+                    position: relative;
+                    top: 40px;
+                    width: 95%;
+                    height: 290px;
+                    margin: auto;
+                }
+                
+                .container .list-image {
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: left;
+                    margin-left: 15px;
+                }
+                
+                .container .list-image li img {
+                    position: relative;
+                    width: 290px;
+                    height: 290px;
+                    margin-right: 130px;
+                    margin-bottom: 70px;
+                    margin-left: 2px;
+                }
+                
+                .h3-2 {
+                    text-align: right;
+                }
+                
+                .h1-3 {
+                    text-align: center;
+                    background-image: url(/img/49176604-fondo-de-la-tecnología-digital-futurista-abstracto-ilustración-del-vector.webp);
+                }
+                
+                .fot-1 {
+                    padding-right: 20px;
+                    padding-top: 40px;
+                    padding-left: 40px;
+                    text-shadow: none;
+                }
+                
+                .p-1 {
+                    padding-left: 590px;
+                }
+                
+                .h3-bat {
+                    text-align: right;
+                }
+                
+                .dire-1 {
+                    padding-left: 590px;
+                    padding-top: 30px;
+                }
